@@ -13,7 +13,7 @@
 --   * pattern matching
 --   * recursion
 
-module Set1 where
+module Set1_copy where
 
 import Mooc.Todo
 
