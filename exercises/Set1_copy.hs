@@ -69,6 +69,8 @@ quadruple x = double (double x)
 --   distance 0 0 1 1  ==>  1.4142135...
 --   distance 1 1 4 5  ==>  5.0
 
+
+
 -- Ex 4: 함수 distance를 정의하세요. 이 함수는 Double 타입의 네 인자 x1, y1, x2, y2를 받아서 점 (x1,y1)과 (x2,y2) 사이의 (유클리드) 거리를 반환해야 합니다.
 --
 -- distance에 타입 시그니처를 명시하세요, 예: distance :: something.
@@ -88,6 +90,9 @@ distance x1 y1 x2 y2= (sqrt((x2 - x1)^2 + (y2 - y1)^2))
 -- and "meeny" for odd inputs.
 --
 -- Ps. have a look at the built in function "even"
+
+
+
 -- Ex 5: 짝수 입력에 대해 "eeny"를, 홀수 입력에 대해 "meeny"를 반환하는 함수 eeny를 정의하세요.
 --
 -- 참고: 내장 함수 "even"을 참고하세요.
@@ -100,6 +105,8 @@ eeny x = if even x then "eeny" else "meeny"
 -- Modify it so that it accepts two passwords, "swordfish" and
 -- "mellon".
 
+
+ 
 -- Ex 6: 강의 자료에 있는 함수 checkPassword입니다.
 -- 이 함수가 "swordfish"와 "mellon" 두 개의 비밀번호를 허용하도록 수정하세요.
 
